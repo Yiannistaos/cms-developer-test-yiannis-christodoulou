@@ -5,12 +5,15 @@
 ## STEP 1. Installation
 Download, Install & Publish the plugin in your WordPress
 
+[cms-developer-test-yiannis-christodoulou-wordpress-plugin.zip](https://github.com/Yiannistaos/cms-developer-test-yiannis-christodoulou/archive/refs/heads/main.zip)
+
 ## STEP 2. Import Data
 Import Data via WP CLI. Open the console and type this command: 
 `wp mytest import_sample_data_into_custom_post_type --json_url="https://temp.web357.com/sample-data.json"`
 
 ## STEP 3. Show Data
 Create a new page and add this shortcode `[mytest-events]`
+
 You can see the events sorted by their timestamps (closest events at the top) on the website. Each event show the time remaining in relative time formats such as "in 20 minutes" or in "5 days".
 
 ## STEP 4. Export Data
@@ -24,5 +27,5 @@ We would like you to create a simple list to record the estimated vs. tracked ti
 | Create a custom post type                                                  |       30m         |       30m     |
 | Create custom fields and save into db                                      |       1h          |       1h      |
 | Get data from a json file and import into db via WP CLI                    |       2h          |       3.5h    |
-| Cleanup the code, add some comments                                        |       1h          |       1h      |
-| Write documentation                                                        |       30m         |       30m     |
+| Cleanup the code, and add some comments                                    |       1h          |       1h      |
+| Write documentation, upload to github                                      |       30m         |       30m     |
