@@ -1,4 +1,4 @@
-# A CMS Developer Test for agentur-loop by Yiannis Christodoulou
+# A CMS Developer Test WordPress Plugin by Yiannis Christodoulou
 
 # How to use the Plugin
 
